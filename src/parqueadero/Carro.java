@@ -10,13 +10,13 @@ package parqueadero;
 public class Carro {
 
 	private int id, donde;
-	private boolean parked;
+	private boolean parqueado;
 
-	public Carro(int id, int donde, boolean parked) {
+	public Carro(int id, int donde, boolean parqueado) {
 		super();
 		this.id = id;
 		this.donde = donde;
-		this.parked = parked;
+		this.parqueado = parqueado;
 	}
 
 	public int getId() {
@@ -35,12 +35,12 @@ public class Carro {
 		this.donde = donde;
 	}
 
-	public boolean isParked() {
-		return parked;
+	public boolean isParqueado() {
+		return parqueado;
 	}
 
-	public void setParked(boolean parked) {
-		this.parked = parked;
+	public void setParqueado(boolean parqueado) {
+		this.parqueado = parqueado;
 	}
 
 }
